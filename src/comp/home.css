@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 .home{
     max-width: 400px;
-    height: 600px;
-    width: 50%;
+    height: 70%;
+    
     
     text-align: center;
     margin-left: 10%;
@@ -10,20 +11,26 @@
     align-items: center;
     padding:20px 20px 20px 20px;
     border-radius: 20px;
-    box-shadow: 3px 3px 5px rgb(75, 68, 68);
-    background-color:rgba(82, 79, 79, 0.856);
+    box-shadow: 3px 3px 5px rgb(235, 156, 156);
+    background-color:rgba(2, 2, 2, 0.342);
+    border: 3px solid rgb(252, 5, 5);
+    font-family: 'Acme', sans-serif;
+    margin-bottom: 100px;
     
 }
 .page{
     flex-wrap: wrap;
    width: 100%;
     display: flex;
-    background-color:rgb(0, 0, 0)
+    
     
 }
 iframe{
     width: 90%;
-    height:37%;}
+    height: inherit;
+   border:none;
+    padding:10px 10px 10px 10px;
+}
 a{
     color: rgb(255, 238, 238);
     text-decoration: none
@@ -31,4 +38,32 @@ a{
 .score{
     width: 100%;
     height: 2000px
+}
+.title{
+    color: rgb(233, 13, 13)
+}
+.time{
+    color: rgb(255, 255, 255);
+}
+.lich {
+   
+    
+    width:100%;
+    height:560px;
+    overflow:hidden;
+    display:block;
+    background-color:rgb(100, 100, 100)
+}
+.names{
+    color: rgb(22, 208, 241);
+    border:2px solid rgb(255, 0, 0)
+}
+.tab{
+    font-family: 'Acme', sans-serif;
+    font-size:40px;
+    font-weight:bold;
+    color:rgb(241, 201, 20)
+}
+.tab:hover{
+    color:rgb(243, 74, 74)
 }
